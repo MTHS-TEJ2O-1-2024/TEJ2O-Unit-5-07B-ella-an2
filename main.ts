@@ -2,7 +2,7 @@
  *
  * Created by: Ella An
  * Created on: Oct 2024
- * This program moves the survo
+ * This program moves the servo
 */
 
 // variables
