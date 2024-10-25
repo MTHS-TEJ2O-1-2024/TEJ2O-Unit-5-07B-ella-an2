@@ -11,6 +11,7 @@ const servoNumber1 = robotbit.Servos.S1
 // setup
 basic.showIcon(IconNames.Happy)
 
+// on button a
 input.onButtonPressed(Button.A, function () {
     robotbit.Servo(servoNumber1, 5)
     basic.clearScreen()
@@ -20,6 +21,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Happy)
 })
 
+// on button b
 input.onButtonPressed(Button.B, function () {
     robotbit.Servo(servoNumber1, 75)
     basic.clearScreen()
